@@ -1,5 +1,5 @@
 # dd
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <!-- TABLE OF CONTENTS -->
   <summary>Table of Contents</summary>
@@ -14,13 +14,13 @@
 </ol>
 
 ## Description
-    ddd
+    dd
 
 ## Installation
-    ddd
+    
 
 ## Usage
-    ddd
+    
 
 ##  License
 
@@ -28,12 +28,11 @@
     undefined
 
 ##  Tests
-    dd
+    
 
 ##  Questions
-dd
+
     
-[ddd](https://github.com/ddd)
+[](https://github.com/)
 
 
-ddd

@@ -4,11 +4,15 @@
 // const profileDataArgs = process.argv.slice(2);
 // const [Description, Contents, Installation, Usage, License, Contributing, Tests, Questions] = filedataargs;
 
+
+
 function init() {
 
 const path = require('path');
 const inquirer = require('inquirer');
 const fs = require('fs');
+
+console.log(path.join(process.cwd(), "README.md"))
 
 inquirer
   .prompt([
@@ -68,8 +72,12 @@ inquirer
     name: "EmailAddress",}
   ])
   .then((response) => {
+    
     return fs.writeFileSync(path.join (process.cwd(), "README.md"), generateREADME(response));
+
+   
   })
+
   .catch((error) => {
     if (error.isTtyError) {
       // Prompt couldn't be rendered in the current environment
